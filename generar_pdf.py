@@ -372,7 +372,7 @@ def generar_html():
       <div class="info-label">Integrantes del Equipo:</div>
       <div class="info-val">
         <ol style="margin: 0; padding-left: 20px; line-height: 1.6;">
-          <li><strong>Guerrero Garcia Diogo Xammyr</strong> (Coordinador / GitHub: xammyr)</li>
+          <li><strong>Guerrero Garcia Diogo Xammyr</strong></li>
           <li><strong>Simon Condori Sebastian Simon</strong></li>
           <li><strong>Huayta Cardenas RONALDHIÑO CRISTHIAN</strong></li>
           <li><strong>Casma Callañaupa Nick Arnold</strong></li>
@@ -390,7 +390,7 @@ def generar_html():
     </div>
     <div class="info-row">
       <div class="info-label">Versión Oficial Estable:</div>
-      <div class="info-val"><strong>v1.0.0 (Release Publicada en GitHub)</strong></div>
+      <div class="info-val"><strong>v1.0.0 - Release Oficial</strong></div>
     </div>
     <div class="info-row">
       <div class="info-label">Entorno Técnico:</div>

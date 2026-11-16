@@ -5,14 +5,14 @@
 
 ### DATOS GENERALES DE ENTREGA
 - **Integrantes del Equipo:**
-  1. **Guerrero Garcia Diogo Xammyr** (Coordinador / GitHub: [xammyr](https://github.com/xammyr))
+  1. **Guerrero Garcia Diogo Xammyr**
   2. **Simon Condori Sebastian Simon**
   3. **Huayta Cardenas RONALDHIÑO CRISTHIAN**
   4. **Casma Callañaupa Nick Arnold**
   5. **Neyra Ramos Jose Jeanpiere**
 - **Repositorio Oficial del Proyecto:** [https://github.com/xammyr/andina-market-360](https://github.com/xammyr/andina-market-360)
 - **Sitio Web en Vivo (GitHub Pages):** [https://xammyr.github.io/andina-market-360/](https://xammyr.github.io/andina-market-360/)
-- **Versión Oficial Publicada:** `v1.0.0` (Lanzamiento inicial en Releases)
+- **Versión Oficial Publicada:** `v1.0.0` - Lanzamiento inicial en Releases
 - **Fecha de Cierre:** 16 de noviembre de 2026
 - **Total de Evidencias y Capturas:** 35 capturas archivadas en `evidencias/capturas/`
 
