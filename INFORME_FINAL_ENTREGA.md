@@ -4,7 +4,12 @@
 ---
 
 ### DATOS GENERALES DE ENTREGA
-- **Estudiante / Usuario de GitHub:** [xammyr](https://github.com/xammyr)
+- **Integrantes del Equipo:**
+  1. **Guerrero Garcia Diogo Xammyr** (Coordinador / GitHub: [xammyr](https://github.com/xammyr))
+  2. **Simon Condori Sebastian Simon**
+  3. **Huayta Cardenas RONALDHIÑO CRISTHIAN**
+  4. **Casma Callañaupa Nick Arnold**
+  5. **Neyra Ramos Jose Jeanpiere**
 - **Repositorio Oficial del Proyecto:** [https://github.com/xammyr/andina-market-360](https://github.com/xammyr/andina-market-360)
 - **Sitio Web en Vivo (GitHub Pages):** [https://xammyr.github.io/andina-market-360/](https://xammyr.github.io/andina-market-360/)
 - **Versión Oficial Publicada:** `v1.0.0` (Lanzamiento inicial en Releases)
