@@ -29,3 +29,4 @@ python src/resumen.py --json docs/data/resumen.json
 - [Guía de Contribución](CONTRIBUTING.md)
 - [Política de Seguridad](SECURITY.md)
 - [Historial de Versiones](CHANGELOG.md)
+Tablero actualizado para análisis de operaciones comerciales.
