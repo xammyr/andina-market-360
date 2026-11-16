@@ -1,0 +1,5 @@
+# Responsables de revision por area (reemplazar por usuarios reales del equipo)
+*       @equipo-calidad
+/data/  @equipo-datos
+/src/   @equipo-datos @equipo-calidad
+/docs/  @equipo-web

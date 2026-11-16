@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andina Market 360 | Tablero Comercial</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Andina Market 360 — Consolidado de Ventas</h1>
+      <p>Sedes operativas: Lima, Ica y Arequipa | Fuente: data/ventas.csv (Datos ficticios de práctica)</p>
+    </header>
+
+    <section class="grid" aria-label="Indicadores principales">
+      <article class="card">
+        <h2>Sede Lima</h2>
+        <p class="valor" id="val-lima">S/ 814.00</p>
+      </article>
+      <article class="card">
+        <h2>Sede Ica</h2>
+        <p class="valor" id="val-ica">S/ 555.00</p>
+      </article>
+      <article class="card">
+        <h2>Sede Arequipa</h2>
+        <p class="valor" id="val-arequipa">S/ 476.00</p>
+      </article>
+      <article class="card">
+        <h2>Total Consolidado (12 op.)</h2>
+        <p class="valor" id="val-total">S/ 1,845.00</p>
+      </article>
+    </section>
+
+    <section aria-label="Detalle por sede">
+      <table>
+        <thead>
+          <tr>
+            <th>Sede</th>
+            <th>Monto Consolidado</th>
+            <th>Participación</th>
+            <th>Tipo de Dato</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Lima</td><td>S/ 814.00</td><td>44.1%</td><td>Ficticio</td></tr>
+          <tr><td>Ica</td><td>S/ 555.00</td><td>30.1%</td><td>Ficticio</td></tr>
+          <tr><td>Arequipa</td><td>S/ 476.00</td><td>25.8%</td><td>Ficticio</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <p>Generado automáticamente por <code>src/resumen.py</code> | Ver datos crudos: <a href="./data/resumen.json">resumen.json</a></p>
+    </footer>
+  </main>
+
+  <script>
+    fetch('./data/resumen.json')
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById('val-lima').textContent = `S/ ${data.por_sede.Lima.toFixed(2)}`;
+        document.getElementById('val-ica').textContent = `S/ ${data.por_sede.Ica.toFixed(2)}`;
+        document.getElementById('val-arequipa').textContent = `S/ ${data.por_sede.Arequipa.toFixed(2)}`;
+        document.getElementById('val-total').textContent = `S/ ${data.total_general.toFixed(2)}`;
+      })
+      .catch(() => console.warn('Mostrando valores estáticos de respaldo.'));
+  </script>
+</body>
+</html>

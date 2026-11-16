@@ -1,0 +1,13 @@
+id_venta,fecha,sede,producto,cantidad,precio_unitario,total
+V001,2026-01-05,Lima,Arroz Extra 5kg,10,22.00,220.00
+V002,2026-01-06,Lima,Aceite Vegetal 1L,18,11.00,198.00
+V003,2026-01-07,Lima,Azúcar Rubia 5kg,12,18.00,216.00
+V004,2026-01-08,Lima,Leche Evaporada Pack,10,18.00,180.00
+V005,2026-01-09,Ica,Avena Clásica 1kg,15,9.00,135.00
+V006,2026-01-10,Ica,Atún en Trozos,20,6.50,130.00
+V007,2026-01-11,Ica,Fideos Spaghetti 1kg,25,5.20,130.00
+V008,2026-01-12,Ica,Café Molido 500g,10,16.00,160.00
+V009,2026-01-13,Arequipa,Quinua Perlada 1kg,12,14.00,168.00
+V010,2026-01-14,Arequipa,Yogurt Natural 1L,16,7.50,120.00
+V011,2026-01-15,Arequipa,Mermelada Fresa 500g,11,8.00,88.00
+V012,2026-01-16,Arequipa,Queso Fresco 500g,10,10.00,100.00

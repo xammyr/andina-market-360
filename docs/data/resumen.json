@@ -1,0 +1,11 @@
+{
+  "proyecto": "Andina Market 360",
+  "tipo_datos": "Ficticio / Didáctico",
+  "operaciones": 12,
+  "por_sede": {
+    "Lima": 814.0,
+    "Ica": 555.0,
+    "Arequipa": 476.0
+  },
+  "total_general": 1845.0
+}
