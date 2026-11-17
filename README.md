@@ -1,5 +1,13 @@
 # Andina Market 360 — Consolidación Comercial
 
+<p align="center">
+  <img src="./assets/lino_sideral.webp" alt="Dr. Lino Martin Quispe Tincopa (Lino Sideral)" width="280" style="border-radius: 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
+  <br>
+  <em><strong>Dr. Lino Martin Quispe Tincopa</strong> · Docente del curso y guía del Cuaderno de Prácticas Git & GitHub</em>
+</p>
+
+---
+
 Caso empresarial transversal del **Cuaderno de Prácticas Git y GitHub (36 Capítulos)**. Consolida operaciones comerciales ficticias de las sedes **Lima, Ica y Arequipa** mediante Python, pruebas automatizadas y publicación estática en GitHub Pages.
 
 ## Tabla de Indicadores (Línea Base Ficticia)
